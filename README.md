@@ -1,4 +1,4 @@
-# AB-Test-Impact-Evaluation-Statistical-and-Business-Decision-Analysis
+# A/B-Test-Impact-Evaluation-Statistical-and-Business-Decision-Analysis
 
 **Overview**
 
