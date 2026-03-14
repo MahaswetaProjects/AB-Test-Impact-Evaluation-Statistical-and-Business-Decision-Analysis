@@ -1,4 +1,4 @@
-# 🧪 A/B Test Impact Evaluation — Checkout Redesign
+# A/B Test Impact Evaluation — Checkout Redesign
 
 > **Statistical & Business Decision Analysis** | Python · Statsmodels · Streamlit
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 📋 Executive Summary
+## Executive Summary
 
 | Metric | Value |
 |---|---|
@@ -19,11 +19,11 @@
 | **Relative Lift** | **+31.9%** |
 | **p-value** | **< 0.0001** |
 | **Estimated Monthly Uplift** | **₹2.33 Crore** |
-| **Recommendation** | ✅ **Ship** |
+| **Recommendation** | **Ship** |
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 An e-commerce platform's checkout page had a ~90% cart abandonment rate. The product team redesigned the checkout UX to reduce friction. This project evaluates whether the redesign produces a statistically significant and practically meaningful improvement before committing to a full rollout.
 
@@ -32,7 +32,7 @@ An e-commerce platform's checkout page had a ~90% cart abandonment rate. The pro
 
 ---
 
-## 🔬 Methodology
+## Methodology
 
 ### 1. Experiment Design
 - **Randomisation unit**: User-level (prevents contamination)
@@ -77,7 +77,7 @@ Ship / No-Ship Decision
 
 ---
 
-## 📊 Key Results
+## Key Results
 
 ### Statistical Significance
 - **Z-statistic**: −4.15
@@ -105,10 +105,10 @@ Ship / No-Ship Decision
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
-📦 ab-test-checkout-redesign/
+ab-test-checkout-redesign/
 ├── 📓 AB_Test_Impact_Evaluation.ipynb   ← Full analysis notebook
 ├── 🖥️  app.py                            ← Interactive Streamlit dashboard
 ├── 📄 README.md                          ← This file
@@ -117,7 +117,7 @@ Ship / No-Ship Decision
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Run the Notebook
 ```bash
@@ -134,7 +134,7 @@ The dashboard opens at `http://localhost:8501`
 
 ---
 
-## 🖥️ Interactive Dashboard Features
+## Interactive Dashboard Features
 
 The Streamlit dashboard (`app.py`) lets you:
 
@@ -148,7 +148,7 @@ The Streamlit dashboard (`app.py`) lets you:
 
 ---
 
-## 📈 Charts Generated
+## Charts Generated
 
 | Chart | File |
 |---|---|
@@ -159,7 +159,7 @@ The Streamlit dashboard (`app.py`) lets you:
 
 ---
 
-## 🔮 Future Work
+## Future Work
 
 1. **Bayesian A/B Testing** — Posterior probability of treatment being best; natural early stopping
 2. **Sequential Testing (SPRT)** — Peek at results without inflating Type I error
@@ -169,7 +169,7 @@ The Streamlit dashboard (`app.py`) lets you:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Tool | Purpose |
 |---|---|
@@ -180,15 +180,4 @@ The Streamlit dashboard (`app.py`) lets you:
 | **Matplotlib / Seaborn** | Visualisations |
 | **Streamlit** | Interactive dashboard |
 
----
 
-## 📬 Author
-
-**Mahasweta Talik**
-- 📧 mahasweta005talik@gmail.com
-- 💼 [LinkedIn](https://linkedin.com/in/your-profile)
-- 🐙 [GitHub](https://github.com/your-username)
-
----
-
-*This project demonstrates end-to-end A/B test design, statistical validation, and business impact quantification — core skills for data analyst and data scientist roles.*
